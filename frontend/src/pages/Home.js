@@ -7,7 +7,7 @@ export default function Home() {
   const [searchParams,setsearchParams]=useSearchParams()    ///ithu search panna 
 
   useEffect(() => {
-    fetch(process.env.https://formerscart-backend.onrender.com+ "/products?"+searchParams) ////ithu product url la .env  file la store panni,fetch pannurom
+    fetch(process.env.REACT_APP_API_URL + "/products?"+searchParams) ////ithu product url la .env  file la store panni,fetch pannurom
       .then((res) => res.json())
       .then((res) => setproducts(res.products));
   }, [searchParams]);    
