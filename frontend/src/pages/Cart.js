@@ -38,7 +38,7 @@ export default function Cart({ cartItems, setcartItems }) {
   }
 
   function placeorderHandler() {
-    fetch(process."http://localhost:3000/api/v1" + "/order", {
+    fetch(process."https://formerscart-backend.onrender.com" + "/order", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
