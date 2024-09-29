@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "10074000000007078",
+      "name": "fr-cart",
+      "domain": {
+        "id": "50022282604",
+        "name": "fr-cart-60032773888.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60032773888",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
