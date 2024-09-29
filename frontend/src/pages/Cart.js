@@ -38,7 +38,7 @@ export default function Cart({ cartItems, setcartItems }) {
   }
 
   function placeorderHandler() {
-    fetch(process.env.REACT_APP_API_URL + "/order", {
+    fetch(process."http://localhost:3000/api/v1" + "/order", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
