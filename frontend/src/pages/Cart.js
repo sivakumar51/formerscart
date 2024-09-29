@@ -38,7 +38,7 @@ export default function Cart({ cartItems, setcartItems }) {
   }
 
   function placeorderHandler() {
-    fetch(process.env.https://formerscart-backend.onrender.com + "/order", {
+    fetch(process.env.REACT_APP_API_URL + "/order", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
