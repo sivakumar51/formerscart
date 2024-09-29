@@ -8,7 +8,7 @@ export default function ProductDetails({cartItems,setcartItems}) {
   const [qty,setqty]=useState(1);
   const { id } = useParams();
   useEffect(() => {
-    fetch(process.env.REACT_APP_API_URL + "/product/" + id) ////ithu product url la .env  file la store panni,fetch pannurom
+    fetch(process.env.https://formerscart-backend.onrender.com + "/product/" + id) ////ithu product url la .env  file la store panni,fetch pannurom
       .then((res) => res.json())
       .then((res) => setproduct(res.product));
   }, []);
